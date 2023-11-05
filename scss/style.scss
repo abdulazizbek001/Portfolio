@@ -1,0 +1,780 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1111px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+//===================================== HEADER START =====================================//
+
+.header {
+    padding: 50px 0px 0px 0px;
+
+    .header-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header-wrap {
+            display: flex;
+            align-items: center;
+            gap: 0 100px;
+        }
+
+        .wrap-list {
+            display: flex;
+            align-items: center;
+            gap: 0 25px;
+
+            .wrap-link {
+                color: #7E7F86;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+
+                b {
+                    color: #25202F;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+        }
+
+        .header-img {
+            width: 70px;
+            height: 70px;
+            padding: 20px;
+            border-radius: 50%;
+            box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.30);
+        }
+    }
+}
+
+//===================================== HEADER END =====================================//
+
+//===================================== MAIN START =====================================//
+
+.main {
+
+    //===================================== HERO START =====================================//
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 141px;
+        margin-bottom: 100px;
+
+        .hero-text {
+            color: #666;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 120%;
+            margin-bottom: 20px;
+        }
+
+        .hero-title {
+            color: #25202F;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            margin-bottom: 20px;
+        }
+
+        .hero-text1 {
+            color: #25202F;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 50px;
+        }
+
+        .hero-link {
+            color: #FFF;
+            text-align: center;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border-radius: 100px;
+            background: #8643DC;
+            padding: 14px 48px;
+        }
+    }
+
+    //===================================== HERO END =====================================//
+
+    //===================================== SERVICE START =====================================//
+
+    .service {
+        margin-bottom: 150px;
+
+        .service-text {
+            color: #8643DC;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 10px;
+        }
+
+        .service-line {
+            width: 50px;
+            height: 2px;
+            border: none;
+            background: #8643DC;
+            margin-bottom: 20px;
+        }
+
+        .service-title {
+            width: 240px;
+            color: #25202F;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 50px;
+        }
+
+        .service-list {
+            display: flex;
+            align-items: center;
+
+            .service-item {
+                margin-right: 30px;
+            }
+
+            .service-item1 {
+                margin-right: 0;
+            }
+        }
+
+        .item-box {
+            display: flex;
+            align-items: center;
+            gap: 0 20px;
+        }
+
+
+        .box-img {
+            margin-bottom: 21px;
+        }
+
+        .box-text {
+            color: #25202F;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .item-text {
+            width: 350px;
+            color: #47444E;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+        }
+    }
+
+    //===================================== SERVICE END =====================================//
+
+    //===================================== PORTFOLIO START =====================================//
+
+    .portfolio {
+        width: 100%;
+        margin-bottom: 168px;
+        // filter: blur(75px);
+        background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
+        // box-shadow: 10px 10px 100px 10px rgba(255, 146, 209, 0.14);
+
+        .portfolio-wrap {
+            .portfolio-box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                filter: no;
+
+                .portfolio-box1 {
+
+
+                    .box1-text {
+                        color: #8643DC;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 10px;
+                    }
+
+                    .box1-line {
+                        width: 50px;
+                        height: 2px;
+                        border: none;
+                        background: #8643DC;
+                        margin-bottom: 15px;
+                    }
+
+                    .box1-title {
+                        width: 200px;
+                        color: #25202F;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+
+                .portfolio-box2 {
+                    display: flex;
+                    align-items: center;
+
+                    .box2-link {
+                        text-decoration: underline;
+                        color: #25202F;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-decoration-line: underline;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .portfolio-box3 {
+                width: 1100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+
+    }
+
+    //===================================== PORTFOLIO END =====================================//
+
+    //===================================== CLIENTS START =====================================//
+
+    .clients {
+
+        .clients-text {
+            color: #8643DC;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 10px;
+        }
+
+        .clients-line {
+            width: 50px;
+            height: 2px;
+            border: none;
+            background: #8643DC;
+            margin-bottom: 15px;
+        }
+
+        .clients-title {
+            width: 200px;
+            color: #25202F;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 44px;
+        }
+
+        .clients-list {
+            display: flex;
+            align-items: center;
+            gap: 0 50px;
+            margin-bottom: 150px;
+
+            .link-box1 {
+                box-shadow: 0px 22px 31px 0px #FFE7F0;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px 0;
+                padding: 33px 60px;
+                width: 170px;
+                height: 170px;
+                border-radius: 10px;
+                border: 1px solid #FFE7F0;
+                background: #FFF6FA;
+
+                .box1-text1 {
+                    color: #000;
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+
+            .link-box2 {
+                box-shadow: 0px 22px 31px 0px #CAFFE1;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px 0;
+                padding: 33px 60px;
+                width: 170px;
+                height: 170px;
+                border-radius: 10px;
+                border: 1px solid #CAFFE1;
+                background: #EDFFF5;
+
+                .box1-text1 {
+                    color: #000;
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+
+            .link-box3 {
+                box-shadow: 0px 22px 31px 0px #EDFFF5;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px 0;
+                padding: 33px 60px;
+                width: 170px;
+                height: 170px;
+                border-radius: 10px;
+                border: 1px solid #CAFFE1;
+                background: #EDFFF5;
+
+                .box1-text1 {
+                    color: #000;
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+
+            .link-box4 {
+                box-shadow: 0px 22px 31px 0px #FFEEC9;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px 0;
+                padding: 33px 60px;
+                width: 170px;
+                height: 170px;
+                border-radius: 10px;
+                border: 1px solid #FFEEC9;
+                background: #FFFBF2;
+
+                .box1-text1 {
+                    color: #000;
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+
+            .link-box5 {
+                box-shadow: 0px 22px 31px 0px #DBFFC3;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px 0;
+                padding: 33px 60px;
+                width: 170px;
+                height: 170px;
+                border-radius: 10px;
+                border: 1px solid #DBFFC3;
+                background: #F4FFED;
+
+                .box1-text1 {
+                    color: #000;
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
+    //===================================== CLIENTS END =====================================//
+
+    //===================================== TESTIMONIALS START =====================================//
+
+    .testimonials {
+        width: 100%;
+        background: linear-gradient(180deg, rgba(203, 163, 255, 0.20) 0%, rgba(197, 255, 176, 0.20) 100%);
+        box-shadow: 1px 1px 1000px 5px rgba(197, 255, 176, 0.20);
+
+        .testimonials-text {
+            color: #8643DC;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 10px;
+        }
+
+        .testimonials-line {
+            width: 50px;
+            height: 2px;
+            border: none;
+            background: #8643DC;
+            margin-bottom: 15px;
+        }
+
+        .testimonials-title {
+            width: 260px;
+            color: #25202F;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 25px;
+        }
+
+        .testimonials-box1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 50px;
+
+            .box1-box {
+                width: 550px;
+                display: flex;
+                flex-wrap: wrap;
+
+                img {
+                    margin: 0 auto;
+                }
+
+                p {
+                    width: 550px;
+                    height: 85px;
+                    color: #636066;
+                    text-align: center;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 32px;
+                }
+            }
+        }
+
+        .testimonials-box2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 167px;
+
+            .box1-box {
+
+
+                img {
+                    margin-bottom: 30px;
+                }
+
+                h5 {
+                    color: #000;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    color: #000;
+                    margin-left: 10px;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-bottom: 46px;
+                }
+
+            }
+        }
+    }
+
+    //===================================== TESTIMONIALS END =====================================//
+
+    //===================================== BLOG START =====================================//
+
+    .blog {
+        display: flex;
+        margin-bottom: 150px;
+
+        div {
+            margin-right: 25px;
+        }
+
+        p {
+            color: #8643DC;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 10px;
+        }
+
+        hr {
+            width: 50px;
+            height: 2px;
+            border: none;
+            background: #8643DC;
+            margin-bottom: 15px;
+        }
+
+        h4 {
+            width: 165px;
+            color: #25202F;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .blog-box1 {
+            margin-right: 28px;
+
+            img {
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: #8643DC;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-bottom: 10px;
+            }
+
+            .box1-text2 {
+                width: 350px;
+                height: 47px;
+                color: #000;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+
+        .blog-box2 {
+            margin-right: 28px;
+            position: relative;
+            width: 255px;
+            height: 350px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 255px;
+                height: 350px;
+                left: 0;
+                bottom: 0;
+                background: linear-gradient(180deg, rgba(196, 196, 196, 0.00) 0%, #25202F 100%);
+            }
+
+            div {
+                left: 20px;
+                bottom: 30px;
+                position: absolute;
+                z-index: 2;
+
+                h6 {
+                    color: #FFF;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+
+                p {
+                    width: 197px;
+                    height: 72px;
+                    color: #FFF;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
+    //===================================== BLOG END =====================================//
+}
+
+//===================================== MAIN END =====================================//
+
+//===================================== FOOTER START =====================================//
+
+.footer {
+
+
+    &-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        a {
+            color: #8643DC;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration-line: underline;
+            text-transform: lowercase;
+            text-decoration: underline;
+        }
+    }
+
+    &-box1 {
+        p {
+            color: #8643DC;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 10px;
+        }
+
+        hr {
+            width: 50px;
+            height: 2px;
+            border: none;
+            background: #8643DC;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            width: 512px;
+            color: #21232D;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 52px;
+        }
+    }
+
+    &-box2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+
+        input {
+            width: 1110px;
+            height: 44px;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #DAD2E3;
+            padding: 0px 0px 17px 0px;
+            margin-bottom: 45px;
+
+            &::placeholder {
+                color: #A8A0B0;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .box2-box {
+            width: 1110px;
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            margin-bottom: 100px;
+
+            button {
+                color: #FFF;
+                text-align: center;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                border: none;
+                border-radius: 100px;
+                background: #8643DC;
+                padding: 18px 50px;
+                border: none;
+            }
+        }
+    }
+
+    &-box3 {
+
+
+        h4 {
+            color: #21232D;
+            text-align: center;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 40px;
+        }
+    }
+}
+
+//===================================== FOOTER END =====================================//
